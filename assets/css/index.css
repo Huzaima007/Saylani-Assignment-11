@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Euclid Circular A';
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/Euclid-Circular-A-Light.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A ';
+    src: url('../fonts/Euclid-Circular-A-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/Euclid-Circular-A-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/Euclid-Circular-A-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/Euclid-Circular-A-Bold.ttf');
+    font-weight: 700;
+}
+
+.top-navbar {
+    background-color: #ffa300;
+    text-align: right;
+    padding: 5px;
+
+}
+
+.top-navbar p {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px 5px !important;
+}
+
+.top-navbar img {
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.second-section {
+    background-image: url("../images/banner.jpeg");
+    height: 94.6vh;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second-section .row {
+    padding-top: 35px;
+    margin-right: -15px;
+    margin-left: -15px;
+    display: flex;
+}
+
+.second-section .row img {
+    max-width: 10rem;
+    margin-left: 130px;
+}
+
+/* Column Widths */
+.second-section .row .col-4 {
+    width: 33.33%;
+}
+
+.second-section .row .col-8 {
+    width: 66.66%;
+    display: flex;
+}
+
+/* Navigation List */
+.second-section .row .col-8 ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+.second-section .row .col-8 ul li {
+    display: inline;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    height: fit-content;
+}
+
+.second-section .row .col-8 ul li:hover {
+    background-color: #620fb6;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* Link Styles */
+.second-section .row .col-8 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.second-section .row .col-8 ul li:hover a {
+    color: #fff;
+}
+
+/* Proposal Button Styles */
+.second-section .row .col-8 .proposal {
+    color: #fff;
+    background-color: #ffa300;
+    border-radius: 25px;
+}
+
+.second-section .row .col-8 .proposal a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.second-section .row .col-8 .proposal:hover {
+    background-color: #620fb6;
+}
+
+
+
+/* home content */
+
+
+.second-section .content {
+    margin: 15% 0px;
+    margin-top: 10%;
+    margin-left: 5% !important;
+    margin-bottom: 15%;
+}
+
+.second-section .content .col-12 {
+    width: 100%;
+}
+
+.second-section .content h2 {
+    font-size: 42px;
+    font-family: 'Euclid Circular A';
+    font-weight: 700;
+    color: #7317CF;
+    text-transform: uppercase;
+}
+
+.second-section .content h2 span {
+    font-size: 62px;
+    display: block;
+    margin-top: 10px !important;
+}
+
+.second-section .content p {
+    font-family: 'Euclid Circular A';
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    color: #7317CF;
+    margin: 20px 0px;
+}
+
+.second-section .content p span {
+    display: block;
+}
+
+
+
+.second-section .content .email-input {
+    display: flex !important;
+    width: 590px;
+    border: 1px solid #7317CF;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.second-section .content .email-input input {
+    font-family: 'Euclid Circular A';
+    font-size: 16px !important;
+    font-weight: 500;
+    color: #9A9A9A;
+    font-size: 18px;
+    outline: unset;
+    width: 100%;
+    border: none;
+    padding: 10px 20px;
+}
+
+.second-section .content .email-button button {
+    font-family: 'Euclid Circular A';
+    margin: 0px;
+    font-weight: 600;
+    padding: 17px 35px;
+    border: transparent;
+    font-size: 18px;
+    background: #7317CF;
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: unset !important;
+}
+
+
+.second-section .content .email-button button:hover {
+    background: black;
+}
